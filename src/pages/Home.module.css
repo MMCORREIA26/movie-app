@@ -1,0 +1,13 @@
+.container{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    
+}
+
+.counts {
+    margin: 12px 0;
+    color: var(--text-secundary);
+
+}
