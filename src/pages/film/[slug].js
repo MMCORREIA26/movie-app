@@ -23,9 +23,7 @@ export default function Film({ movie }) {
 
                 <div className={styles.info}>
 
-                    <div className={styles.title}>
-                        <h2>{movie.original_title}</h2>
-                    </div>
+                    <h2>{movie.original_title}</h2>
 
                     <div className={styles.conteudo}>
 
@@ -36,7 +34,7 @@ export default function Film({ movie }) {
                             <h4>{movie.vote_average}</h4>
                         </div>
                         <h3>sinopse</h3>
-                        <div>{movie.overview}</div>
+                        <h5>{movie.overview}</h5>
                     </div>
                     
                 </div>

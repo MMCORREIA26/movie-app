@@ -1,6 +1,6 @@
 .fundo{
     width: auto;
-    height:578px;
+    height:36rem;
     display: flex;
     position: relative;
     justify-content: center;
@@ -9,10 +9,10 @@
 
 .fundo img{
     object-fit: cover;
-    width: 1020px;
-    height: 493px;
+    width: 63.75rem;
+    height: 31rem;
     display: flex;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     opacity: 30%;
 }
 
@@ -24,39 +24,39 @@
 }
 
 .entrada h1{
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 400;
 }
 
 .entrada h5{
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 @media (max-width:577px){
 
     .fundo{
-        padding-left: 34rem;
-        padding-top: 34rem;
-        padding-bottom: 34rem;
+        margin-left: 34rem;
+        margin-top: 30.5rem;
+        margin-bottom: 39rem;
     }
     
     
     .fundo img{
-        width: 832px;
-        height: 1020px;
+        width: 52rem;
+        height: 95rem;
     }
 
     .entrada{
-        width: 800px;
+        width: 50rem;
     }
     
     .entrada h1{
-        font-size: 84px;
-        padding-bottom: 15px;
+        font-size: 5.25rem;
+        padding-bottom: 1rem;
     }
     
     .entrada h5{
-        font-size: 33px;
+        font-size: 2rem;
     }
 
 }

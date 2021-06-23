@@ -6,8 +6,8 @@
 }
 
 .header img{
-    margin-top: 40px;
-    margin-left: 165px;
+    margin-top: 2.5rem;
+    margin-left: 10rem;
     height: 2rem;
     width: auto;
 
@@ -18,13 +18,11 @@
         justify-content: center;
     }
     .header img{
-        margin-top: 30px;
-        margin-left: 82px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 18rem;
         height: 4rem;
         width: auto;
     
     }
-
-  
-
 }

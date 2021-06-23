@@ -1,5 +1,5 @@
 .container{
-    max-width: 1080px;
+    max-width: 67.5rem;
     margin: 2rem auto;
     padding: 0 4rem;
     display: flex;
@@ -10,7 +10,7 @@
 }
 
 .fundo{
-    padding-top: 40px;
+    padding-top: 2.5rem;
     width: auto;
     display: flex;
     position: relative;
@@ -19,27 +19,27 @@
 
 .back img{
     object-fit: cover;
-    width: 1020px;
-    height: 493px;
+    width: 63.75rem;
+    height: 30.8rem;
     display: flex;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     opacity: 30%;
 }
 
 .info{
-    padding-left: 24px;
+    padding-left: 1.5rem;
     flex: 0 0 70%;
     width: 100%;
 }
 
 .poster img{
     width: auto;
-    height: 427px;
-    border-radius: 20px;
+    height: 26.7rem;
+    border-radius: 1.25rem;
 }
 
-.title h2{
-    font-size: 30px;
+.info h2{
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
@@ -48,32 +48,88 @@ opacity: 50%;
 }
 
 .vote{
-    width:58px;
-    height:58px;
+    width:3.6rem;
+    height:3.6rem;
     border-radius: 100%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     background-color:var(--blue-dark);
 }
 
 .vote h4{
-    height:58px;
+    height:3.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .conteudo{
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .conteudo h3{
-    padding-top: 20px;
-    font-size: 23px;
+    padding-top: 1.25rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 
 @media (max-width:577px){
-
+    .fundo{
+        margin-left: 29rem;
+        margin-bottom: 10rem;
+    }
     
+    .back img{
+        width: 45rem;
+        height: 135rem;
+    }
+
+    .container{
+
+        padding-top: 5rem;
+    }
+
+    .poster img{
+        width: auto;
+        height: 46rem;
+        border-radius: 3rem;
+    }
+    
+    .info{
+        padding-top: 3rem;
+        width: 50rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .info h2{
+        font-size: 3rem;
+    }
+
+    .data{
+        font-size: 1.75rem;
+        padding-top: 0.5rem;
+    }
+
+    .vote{
+        width:6rem;
+        height:6rem;
+        margin-top: 2rem;
+
+    }
+    
+    .vote h4{
+        height:6rem;
+        font-size: 1.75rem;
+    }
+
+    .conteudo h3{
+        padding-top: 2rem;
+        font-size: 1.75rem;
+    }
+
+    .conteudo h5{
+        padding-top: 1.5rem;
+        font-size: 1.75rem;
+    }
 
 }

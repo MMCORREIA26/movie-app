@@ -1,21 +1,21 @@
 .card{
     flex: 0 0 25%;
-    padding: 0 2rem 100px 2rem;
+    padding: 0 2rem 6.25rem 2rem;
 }
 
 .card img{
     object-fit: cover;
     width: 100%;
-    height: 310px;
-    border-radius: 20px;
+    height: 19.4rem;
+    border-radius: 1.25rem;
 }
 
 .titulo {
-    font-size: 25px;
+    font-size: 1.5rem;
     color: var(--white);
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 @media (max-width:577px){
@@ -23,19 +23,19 @@
         flex: 0 0 100%;
         padding-left: 4rem;
         padding-right: 4rem;
-        padding-bottom: 170px;
+        padding-bottom: 10.5rem;
         text-align: center;
     }
 
     .card img{
-        height: 1240px;
-        width: 832px;
-        border-radius: 60px;
+        height: 77.5rem;
+        width: 52rem;
+        border-radius: 3.75rem;
     }
 
     .titulo h3{
-        font-size: 60px;
-        padding-top: 30px;
+        font-size: 3.75rem;
+        padding-top: 2rem;
     }
 
 

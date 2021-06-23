@@ -9,33 +9,28 @@
 }
 
 .footer h4{
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--white);
     text-transform: uppercase;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 1rem;
 }
 
-@media (max-width:769px){
-    
+
+@media (max-width:577px){
     .footer{
-        padding: 1rem;
+        width: 46rem;
+        align-items: center;
+        margin-left: 12rem;
     }
-    
     .footer img{
-        height: 8px;
+        height: 2rem;
         width: auto;
+    
     }
     
     .footer h4{
-        font-size: 12px;
-        color: var(--white);
-        text-transform: uppercase;
-        text-align: center;
-        padding-top: 19px;
+        font-size: 1.25rem;
     }
-}
-
-@media (max-width:577px){
   
 }
